@@ -1,4 +1,4 @@
-# 📊 Data Warehouse & Analytics Practice Project
+#  Data Warehouse & Analytics Practice Project
 
 Welcome to this repository. This project documents my hands-on learning journey in building a **Data Warehouse and Analytics solution** using SQL Server, based on a guided YouTube tutorial and expanded with my own practice, setup, and implementation.
 
@@ -13,7 +13,7 @@ The purpose of this project is to strengthen practical skills in:
 
 ---
 
-## 📌 About This Project
+##  About This Project
 
 I followed a full tutorial project and recreated the entire workflow step-by-step in my own environment, while managing the files, scripts, and progress inside this repository.
 
@@ -21,7 +21,7 @@ Rather than simply copying code, this repo serves as my personal implementation 
 
 ---
 
-## 🏗️ Data Architecture
+##  Data Architecture
 
 This project uses a **Medallion Architecture** approach with three layers:
 
@@ -36,7 +36,7 @@ Contains business-ready tables optimized for reporting and analytics using dimen
 
 ---
 
-## ⚙️ Project Scope
+##  Project Scope
 
 The project includes:
 
@@ -49,20 +49,21 @@ The project includes:
 
 ---
 
-## 🛠️ Tools Used
-
-- :contentReference[oaicite:0]{index=0}
-- :contentReference[oaicite:1]{index=1}
-- :contentReference[oaicite:2]{index=2}
-- :contentReference[oaicite:3]{index=3}
-
----
-
-## 📂 Repository Structure
+##  Repository Structure
 
 ```text
 datasets/        -> Raw CSV source files  
-docs/            -> Architecture diagrams & documentation  
+docs/            -> Architecture diagrams & data catalog  
 scripts/         -> SQL scripts for Bronze / Silver / Gold layers  
-tests/           -> Validation or testing scripts  
-README.md        -> Project overview  
+tests/           -> Validation and testing scripts
+
+---
+
+## Credits
+
+This project was recreated as a personal learning exercise based on the tutorial and repository by Baraa Khatib Salkini.
+
+Original source:
+https://github.com/DataWithBaraa/sql-data-warehouse-project
+
+This repository contains my own implementation completed while following the tutorial.
