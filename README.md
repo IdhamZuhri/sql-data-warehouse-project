@@ -4,6 +4,8 @@ This project demonstrates the design and implementation of a complete **data eng
 
 It follows a modern **Medallion Architecture (Bronze → Silver → Gold)** using **SQL Server**, and delivers insights through an interactive **Power BI dashboard**.
 
+![Data Pipeline Architecture](docs/Medallion_architecture.png)
+
 ---
 
 ##  Project Objective
